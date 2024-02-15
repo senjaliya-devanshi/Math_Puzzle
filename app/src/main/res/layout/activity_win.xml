@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_win"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textLevelWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#5C23FA"
+        android:textSize="40dp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/trophy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/trophy" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnWinContinuew"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:text="CONTINUE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:backgroundTint="@null"
+        android:background="@drawable/button"/>
+    />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnWinMain"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:text="MAIN MENU"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:backgroundTint="@null"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sharetxetview"
+        android:text="SHARE THIS PUZZLE"
+        android:textSize="30sp"
+        android:textColor="#5C23FA"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:src="@drawable/shareus"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/sharewin"
+        android:background="@drawable/button"/>
+
+
+</LinearLayout>
